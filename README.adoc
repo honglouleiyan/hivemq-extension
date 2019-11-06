@@ -1,6 +1,11 @@
-== HiveMQ Heartbeat Extension
+== HiveMQ Extension
 
 This extension allows integration with with load balancers and proxies.
+This extension sets a ClientLifecycleEventListener which logs the MQTT Version and identifier of every connecting and disconnecting client.
+
+This extension implements Access Control based on redis.
+This extension will interceptor the message then publish rocketmq by Publish Inbound Interceptor
+
 
 === How it works
 
